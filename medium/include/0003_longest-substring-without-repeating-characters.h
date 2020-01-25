@@ -7,6 +7,8 @@
 #include <unordered_set>
 #include <gtest/gtest.h>
 
+namespace Q_0003 {
+
 class Solution {
  public:
     int lengthOfLongestSubstring(std::string s) {
@@ -21,7 +23,8 @@ class Solution {
             max_length_chars.clear();
             for (int str_end = str_start; str_end < s.length(); str_end++) {
                 char& current_char = s[str_end];
-                if (max_length_chars.find(current_char) == max_length_chars.end()) {
+                if (max_length_chars.find(current_char) ==
+                    max_length_chars.end()) {
                     current_length += 1;
                     max_length_chars.insert(current_char);
                 } else {
@@ -57,21 +60,24 @@ class SolutionFast {
 
         int max_length = sliding_window.size();
         while (window_end != s.end()) {
-            for (;*window_start != *window_end; window_start++) {
+            for (; *window_start != *window_end; window_start++) {
                 sliding_window.erase(*window_start);
             }
             window_start++;
             window_end++;
 
-            for(; window_end != s.end(); window_end++) {
+            for (; window_end != s.end(); window_end++) {
                 auto loc = sliding_window.emplace(*window_end);
                 if (!loc.second) {
                     break;
                 }
             }
             int current_length = sliding_window.size();
-            max_length = max_length < current_length ? current_length : max_length;
+            max_length =
+                    max_length < current_length ? current_length : max_length;
         }
         return max_length;
     }
 };
+
+}

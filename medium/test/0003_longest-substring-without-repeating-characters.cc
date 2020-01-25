@@ -8,7 +8,7 @@
 
 TEST(T_0003, SOLUTION) {
     // Solution s;
-    SolutionFast s;
+    Q_0003::SolutionFast s;
     int l = s.lengthOfLongestSubstring("aabaab!bb");
     EXPECT_EQ(l, 3);
 }
