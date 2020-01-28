@@ -10,10 +10,10 @@ find_package(GTest REQUIRED)
 include_directories(common)
 include_directories(easy/include)
 include_directories(medium/include)
-include_directories(head/include)
+include_directories(hard/include)
 
 add_subdirectory(${PROJECT_SOURCE_DIR}/medium)
-# add_subdirectory(${PROJECT_SOURCE_DIR}/hard)
+add_subdirectory(${PROJECT_SOURCE_DIR}/hard)
 
 set(PROJECT_SRC
     ${EASY_SRC}
