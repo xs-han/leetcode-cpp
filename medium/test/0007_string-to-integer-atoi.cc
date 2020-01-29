@@ -4,9 +4,9 @@
 
 #include <gtest/gtest.h>
 
-#include "0007_string-to-integer-atoi.h"
+#include "0008_string-to-integer-atoi.h"
 
-TEST(T_0007, SOLUTION) {
+TEST(T_0008, SOLUTION) {
     // Solution s;
     Q_0007::Solution s;
     int r = s.myAtoi(std::string("-91283472332"));

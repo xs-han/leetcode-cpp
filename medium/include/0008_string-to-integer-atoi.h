@@ -7,7 +7,7 @@
 
 #include <string>
 
-namespace Q_0007 {
+namespace Q_0008 {
 class Solution {
  public:
     int myAtoi(const std::string& str) {
