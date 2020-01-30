@@ -24,3 +24,16 @@ sudo cmake .. && make && sudo make install
 相关资源（持续收集中...）
 --
 [Introduction To Algorithms (MIT Open Course)](https://ocw.mit.edu/courses/electrical-engineering-and-computer-science/6-006-introduction-to-algorithms-fall-2011/lecture-videos/)
+
+注意事项
+--
+leetcode代码中输入输出流会占用测试时间。
+一般来说，可以使用如下代码进行加速
+```c++
+#include <iostream>
+
+std::ios::sync_with_stdio(false);
+std::cin.tie(nullptr);
+std::cout.tie(nullptr);
+```
+具体可参见[Leetcode discussion](https://leetcode.com/discuss/general-discussion/130845/Can-someone-explain-these-codes-(sync_with_stdio(false))-Thanks-a-lot-!/)

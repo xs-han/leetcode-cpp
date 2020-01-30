@@ -8,7 +8,7 @@
 
 TEST(T_0008, SOLUTION) {
     // Solution s;
-    Q_0007::Solution s;
+    Q_0008::Solution s;
     int r = s.myAtoi(std::string("-91283472332"));
     std::cout << r;
 }
