@@ -8,12 +8,12 @@
 所有算法均在头文件实现。
 不建议在工程实践中使用这种style。
 
-一部分problems包含测试代码，在每个难度的test子文件夹下。
+多数problems包含测试代码，在每个难度的test子文件夹下。
 
 ### 项目依赖
-gtest
+gtest-1.7.0
 
-具体来说使用如下命令安装（已在ubuntu 18.04上测试）
+使用如下命令安装（已在ubuntu 18.04上测试）
 ```bash
 sudo apt install libgtest-dev
 cd /usr/src/gtest
@@ -27,8 +27,8 @@ sudo cmake .. && make && sudo make install
 
 注意事项
 --
-leetcode代码中输入输出流会占用测试时间。
-一般来说，可以使用如下代码进行加速
+leetcode网站测试过程中，输入输出流会占用测试时间。
+一般来说，可以使用如下代码进行加速。
 ```c++
 #include <iostream>
 
