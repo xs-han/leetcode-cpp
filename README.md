@@ -25,6 +25,8 @@ sudo cmake .. && make && sudo make install
 --
 [Introduction To Algorithms (MIT Open Course)](https://ocw.mit.edu/courses/electrical-engineering-and-computer-science/6-006-introduction-to-algorithms-fall-2011/lecture-videos/)
 
+[C++书单(stackoverflow高票当选)](https://stackoverflow.com/questions/388242/the-definitive-c-book-guide-and-list)
+
 注意事项
 --
 leetcode网站测试过程中，输入输出流会占用测试时间。
