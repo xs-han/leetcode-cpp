@@ -12,6 +12,7 @@ include_directories(easy/include)
 include_directories(medium/include)
 include_directories(hard/include)
 
+add_subdirectory(${PROJECT_SOURCE_DIR}/easy)
 add_subdirectory(${PROJECT_SOURCE_DIR}/medium)
 add_subdirectory(${PROJECT_SOURCE_DIR}/hard)
 

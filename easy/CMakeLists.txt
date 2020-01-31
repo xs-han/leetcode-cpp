@@ -1,0 +1,5 @@
+file(GLOB SRC src/*.cc)
+set(EASY_SRC ${SRC} PARENT_SCOPE)
+
+file(GLOB TEST_SRC test/*.cc)
+set(EASY_TEST ${TEST_SRC} PARENT_SCOPE)
