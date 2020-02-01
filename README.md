@@ -27,6 +27,8 @@ sudo cmake .. && make && sudo make install
 
 [C++书单(stackoverflow高票当选)](https://stackoverflow.com/questions/388242/the-definitive-c-book-guide-and-list)
 
+[Google编成规范](https://zh-google-styleguide.readthedocs.io/en/latest/google-cpp-styleguide/contents/)
+
 注意事项
 --
 leetcode网站测试过程中，输入输出流会占用测试时间。
