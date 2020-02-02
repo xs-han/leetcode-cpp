@@ -27,7 +27,7 @@ sudo cmake .. && make && sudo make install
 
 [C++书单(stackoverflow高票当选)](https://stackoverflow.com/questions/388242/the-definitive-c-book-guide-and-list)
 
-[Google编成规范](https://zh-google-styleguide.readthedocs.io/en/latest/google-cpp-styleguide/contents/)
+[Google编程规范](https://zh-google-styleguide.readthedocs.io/en/latest/google-cpp-styleguide/contents/)
 
 注意事项
 --
