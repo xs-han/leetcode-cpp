@@ -16,10 +16,14 @@ add_subdirectory(${PROJECT_SOURCE_DIR}/easy)
 add_subdirectory(${PROJECT_SOURCE_DIR}/medium)
 add_subdirectory(${PROJECT_SOURCE_DIR}/hard)
 
+set(COMMON_SRC
+    common/linked_list.cc)
+
 set(PROJECT_SRC
     ${EASY_SRC}
     ${MEDIUM_SRC}
-    ${HARD_SRC})
+    ${HARD_SRC}
+    ${COMMON_SRC})
 
 set(PROJECT_TEST
     ${EASY_TEST}
