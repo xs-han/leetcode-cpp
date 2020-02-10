@@ -73,3 +73,4 @@ std::cout.tie(nullptr);
 | 0025 | Hard   | 20ms  | 11.4MB    | 85.84%  |
 | 0026 | Medium | 16ms  | 10.1MB    | 99.40%  |
 | 0027 | easy   | 0ms   | 8.6MB     | 100.00% |
+| 0028 | easy   | 0ms   | 9.2MB     | 100.00% |
