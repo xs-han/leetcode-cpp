@@ -44,6 +44,8 @@ std::cout.tie(nullptr);
 
 网站测试结果
 --
+每个问题取Runtime最短的一次测试作为统计结果。
+
 | #问题 | 难度 | Runtime | Memory | Runtime Beats |
 | :--- | :--- | :---    | :---   | :---   |
 | 0001 | Easy   | 8ms   | 10.2MB    | 93.46%  |
@@ -74,3 +76,4 @@ std::cout.tie(nullptr);
 | 0026 | Medium | 16ms  | 10.1MB    | 99.40%  |
 | 0027 | easy   | 0ms   | 8.6MB     | 100.00% |
 | 0028 | easy   | 0ms   | 9.2MB     | 100.00% |
+| 0029 | medium | 0ms   | 8.4MB     | 100.00% |
