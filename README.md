@@ -79,3 +79,4 @@ std::cout.tie(nullptr);
 | 0029 | medium | 0ms   | 8.4MB     | 100.00% |
 | 0030 | hard   | 36ms  | 23.9MB    | 86.23%  |
 | 0031 | medium | 4ms   | 8.8MB     | 98.93%  |
+| 0032 | hard   | 0ms   | 9.8MB     | 100.00% |
