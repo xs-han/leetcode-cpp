@@ -21,7 +21,7 @@ public:
     }
 
 private:
-    void DFS(const std::vector<int>::iterator p_candidate,
+    void DFS(std::vector<int>::iterator start,
             int target,
             std::vector<int>& combination) {
         if (target == 0) {
@@ -29,7 +29,6 @@ private:
             return;
         }
 
-        std::vector<int>::iterator start = p_candidate;
         while (start != p_end && *start <= target) {
             combination.push_back(*start);
             DFS(start, target - *start, combination);
