@@ -7,7 +7,7 @@
 
 #include <vector>
 
-namespace Q_0042 {
+namespace Q_0043 {
 class Solution {
 public:
     int trap(std::vector<int>& height) {
